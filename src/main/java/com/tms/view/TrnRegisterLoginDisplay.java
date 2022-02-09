@@ -10,6 +10,8 @@ public class TrnRegisterLoginDisplay {
 
 	public void display() {
 		while (true) {
+			System.out.println("----------------------------YOU HAVE ENTERED AS A TRAINER------------------------------- ");
+
 			System.out.println("1-Register");
 			System.out.println("2-Login");
 			System.out.println("0- Go Back");

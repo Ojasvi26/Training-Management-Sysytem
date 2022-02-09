@@ -27,8 +27,8 @@ public class InputUtil {
 	}
 
 	public static void employeeRegisterDetails() {
-		System.out.println("Enter the details: ");
 		
+		System.out.println("Enter the details: ");
 		System.out.println("Enter your Employee Id- ");
 		int id = InputUtil.intInput();
 		System.out.println("Enter your First Name- ");
@@ -60,8 +60,9 @@ public class InputUtil {
 		}
 	}
 		public static void trainerRegisterDetails() {
+
 			System.out.println("Enter the details: ");
-			System.out.println("Enter your Employee Id- ");
+			System.out.println("Enter your Trainer Id- ");
 			int id = InputUtil.intInput();
 			System.out.println("Enter your First Name- ");
 			String firstName = InputUtil.strInput();

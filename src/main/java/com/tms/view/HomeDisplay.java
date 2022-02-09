@@ -9,8 +9,9 @@ public class HomeDisplay {
 		EmpRegisterLoginDisplay erl = new EmpRegisterLoginDisplay();
 		TrnRegisterLoginDisplay trl = new TrnRegisterLoginDisplay();
 		DisplayUtil displayUtil = new DisplayUtil();
+		System.out.println("----------------------------------WELCOME----------------------------\n");
 		while (true) {
-			System.out.println("Enter the option:");
+			System.out.println("\nEnter the option:");
 			System.out.println("1- Trainer");
 			System.out.println("2- Employee");
 			//System.out.println("3- Registered Employee List");
@@ -32,7 +33,7 @@ public class HomeDisplay {
 				System.out.println("Thank You, Bye!");
 				return;
 			default:
-				System.out.println("Please Enter a valid choice...\n");
+				System.out.println("Please Enter a valid choice...");
 			}
 		}
 	}
